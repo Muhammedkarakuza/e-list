@@ -1,0 +1,13 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-evenly;
+  margin: 1rem;
+}
+.cards .card-main {
+  height: 450px;
+  overflow: hidden;
+  position: relative;
+  width: 350px;
+}
