@@ -4,3 +4,22 @@
   padding: 0.5rem;
   text-align: center;
 }
+.header-main h1 {
+  color: #cd890c;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+.header-main .btn-pro button {
+  margin-top: 1rem;
+  gap: 1rem;
+}
+.header-main .btn-pro button:hover {
+  background-color: #fb7747;
+}
+
+@media (min-width: 300px) {
+  .btn-pro {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}

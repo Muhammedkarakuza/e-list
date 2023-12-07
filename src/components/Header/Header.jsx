@@ -1,5 +1,6 @@
 import React from "react";
 import { categories } from "../../helper/data";
+import "./Header.css";
 
 const Header = () => {
   return (
@@ -13,3 +14,5 @@ const Header = () => {
     </div>
   );
 };
+
+export default Header;
