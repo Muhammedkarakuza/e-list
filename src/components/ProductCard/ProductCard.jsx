@@ -1,6 +1,6 @@
 import React from "react";
-import { products } from "../helper/data";
 import "./ProductCard.css";
+import { products } from "../helper/data";
 
 const ProductCard = () => {
   return (
