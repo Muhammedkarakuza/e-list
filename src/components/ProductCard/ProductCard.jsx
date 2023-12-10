@@ -1,6 +1,6 @@
-import { products } from "../../helper/data";
-import "./ProductCard.css";
 import React from "react";
+import { products } from "../helper/data";
+import "./ProductCard.css";
 
 const ProductCard = () => {
   return (

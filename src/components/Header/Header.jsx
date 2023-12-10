@@ -1,5 +1,5 @@
 import React from "react";
-import { categories } from "../../helper/data";
+import { categories } from "../helper/data";
 import "./Header.css";
 
 const Header = () => {

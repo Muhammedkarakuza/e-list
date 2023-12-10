@@ -6,13 +6,24 @@
 }
 .header-main h1 {
   color: #cd890c;
-  font-size: 1.3rem;
+  font-size: 3rem;
   margin-bottom: 1rem;
 }
-.header-main .btn-pro button {
-  margin-top: 1rem;
+.header-main .btn-pro {
+  display: flex;
+  align-items: center;
   gap: 1rem;
+  justify-content: center;
+  margin-top: 1rem;
 }
+.header-main .btn-pro button {
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  border-radius: 1rem;
+  transition: all 1s;
+}
+
 .header-main .btn-pro button:hover {
   background-color: #fb7747;
 }
